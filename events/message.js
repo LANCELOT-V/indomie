@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 
 module.exports = async (bot, message) => {
 
-    let prefix = "+";
+    let prefix = process.env.prefix ;
     let owners = ['641693814188146718'];
 
     const args = message.content.split(/ +/g);

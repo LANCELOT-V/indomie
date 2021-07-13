@@ -20,7 +20,7 @@ bot.functions = require("./functions/functions.js");
 
 
 load();
-bot.login(config.token);
+bot.login(process.env.token);
 
 
 const prefix = "+"

@@ -2,13 +2,12 @@ const img = require('images-scraper')
 const Discord = require("discord.js");
 const google = new img({
     puppeteer: {
-        headless: true,
+        headless: false,
     }
 })
 
 exports.run = async (bot, message, args) => {
 
-    
     
     var random = Math.floor((Math.random() * 90) + 0);
     console.log(random)
@@ -19,19 +18,6 @@ exports.run = async (bot, message, args) => {
         
         .setImage(hasil)
     message.channel.send(embedpic)
-
-
-     
-         
- 
-
-
-
-
-
-
-
-
 
 
 

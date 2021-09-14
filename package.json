@@ -12,18 +12,12 @@
   "dependencies": {
     "axios": "^0.21.1",
     "discord.js": "^12.5.3",
-    "discord.js-pagination": "^1.0.3",
-    "distube": "^2.8.15",
     "express": "^4.17.1",
-    "ffmpeg": "0.0.4",
-    "ffmpeg-static": "^4.4.0",
     "fs": "0.0.1-security",
     "images-scraper": "^6.3.0",
     "node-fetch": "^2.6.1",
-    "opusscript": "0.0.8",
     "os": "^0.1.1",
     "path": "^0.12.7",
-    "puppeteer": "^10.1.0",
-    "ytdl-core": "^4.8.2"
+    "puppeteer": "^10.1.0"
   }
 }
